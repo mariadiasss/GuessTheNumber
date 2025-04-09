@@ -1,0 +1,19 @@
+Configurando o GIT:
+git config --global user.name mariadiasss
+git config --global user.email mariacoelhodias94@gmail.com
+
+Abrir o Terminal: Ctrl + "
+
+Criar um projeto React Native com Expo:
+npx  create-expo-app@latest GuessTheNumber --template blank
+
+Acessar a pasta:
+cd GuessTheNumber
+
+npm i
+
+Executar o projeto:
+npx expo start --localhost --android
+
+Biblioteca para roda na web
+npx expo isntall react-dom react-native-web @expo/metro-runtime

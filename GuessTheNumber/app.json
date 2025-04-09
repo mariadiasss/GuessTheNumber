@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Cold2Fire",
+    "slug": "Cold2Fire",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F1A20"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.cold2fire"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F1A20"
+      },
+      "package": "com.yourname.cold2fire"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
